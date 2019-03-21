@@ -3,18 +3,9 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/nsconfig.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_nanostack_full.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_generic.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_border_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_full_end_device.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_end_device.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ethernet.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_border_router.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_lowpan_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
@@ -64,7 +55,4 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/MLE/mle_tlv.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/MLE/mle.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_internal.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/protocol_6lowpan.h \
- mbed-os/features/nanostack/coap-service/coap-service/coap_service_api.h \
- mbed-os/features/frameworks/mbed-coap/mbed-coap/sn_coap_header.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_address.h
+ mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/protocol_6lowpan.h

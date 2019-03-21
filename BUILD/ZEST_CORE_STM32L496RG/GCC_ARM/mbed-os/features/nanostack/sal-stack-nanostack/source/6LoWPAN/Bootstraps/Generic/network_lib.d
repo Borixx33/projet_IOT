@@ -3,18 +3,9 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed_config.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/nsconfig.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_nanostack_full.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_generic.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_border_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_full_end_device.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_thread_end_device.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ethernet.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_border_router.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/cfg_lowpan_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_error_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_buffer.h \
@@ -49,20 +40,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/MLE/mle.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/shalib.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6_constants.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/TLS/tls_lib.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/Common/sec_lib_definitions.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ns_sha256.h \
- mbed-os/features/mbedtls/inc/mbedtls/sha256.h \
- mbed-os/features/mbedtls/inc/mbedtls/config.h \
- mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
- mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/Common/sec_lib.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_nvm_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Security/PANA/pana_header.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_pana_parameters_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ccmLIB.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_aes.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ND/nd_router_object.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ND/nd_defines.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_6lowpan_parameter_api.h \
@@ -86,4 +63,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanosta
  mbed-os/features/nanostack/sal-stack-nanostack/source/MLE/mle_tlv.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_bootstrap.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_api.h
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_api.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ccmLIB.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_aes.h

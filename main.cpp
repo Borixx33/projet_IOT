@@ -8,7 +8,7 @@
 NetworkInterface *net;
 
 int arrivedcount = 0;
-const char* topic = "/YNOV/messages";
+const char* topic = "floborie/feeds/projet-io";
 
 /* Printf the message received and its configuration */
 void messageArrived(MQTT::MessageData& md)
@@ -18,7 +18,13 @@ void messageArrived(MQTT::MessageData& md)
     printf("Payload %.*s\r\n", message.payloadlen, (char*)message.payload);
     ++arrivedcount;
 }
+namespace{
+#define PERIOD_MS 500
+}
 
+static DigitalOut led1(LED1);
+I2C i2c(I2C1_SDA, I2C1_SCL);
+uint8_t lm75_adress = 0x48 << 1;
 // MQTT demo
 int main() {
 	int result;
@@ -53,7 +59,7 @@ int main() {
     MQTT::Client<MQTTNetwork, Countdown> client(mqttNetwork);
 
     // Connect the socket to the MQTT Broker
-    const char* hostname = "fd9f:590a:b158:ffff:ffff::c0a8:0103";
+    const char* hostname = "io.adafruit.com";
     uint16_t port = 1883;
     printf("Connecting to %s:%d\r\n", hostname, port);
     int rc = mqttNetwork.connect(hostname, port);
@@ -65,7 +71,7 @@ int main() {
     data.MQTTVersion = 3;
     data.clientID.cstring = "mbed-sample";
     data.username.cstring = "floborie";
-    data.password.cstring = "";
+    data.password.cstring = "b2a66f84bb5e440f8341e374d908e294";
     if ((rc = client.connect(data)) != 0)
         printf("rc from MQTT connect is %d\r\n", rc);
 
@@ -92,6 +98,19 @@ int main() {
     // Here we yield until we receive the message we sent
     while (arrivedcount < 1)
         client.yield(100);
+
+    while (true) {
+            char cmd[2];
+            cmd[0] = 0x00; // adresse registre temperature
+            i2c.write(lm75_adress, cmd, 1);
+            i2c.read(lm75_adress, cmd, 2);
+
+            float temperature = ((cmd[0] << 8 | cmd[1] ) >> 7) * 0.5;
+            printf("Temperature : %f\n", temperature);
+
+            printf("Alive!\n");
+            ThisThread::sleep_for(PERIOD_MS);
+        }
 
     // Disconnect client and socket
     client.disconnect();

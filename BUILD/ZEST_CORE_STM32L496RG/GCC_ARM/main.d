@@ -231,4 +231,12 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/main.o: main.cpp \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- mbed-os/rtos/rtos.h
+ zest-radio-atzbrf233/zest-radio-atzbrf233/zest-radio-atzbrf233.h \
+ mbed-os/features/netsocket/nsapi_dns.h mqtt-mbed/MQTTNetwork.h \
+ mbed-os/features/netsocket/NetworkInterface.h mqtt-mbed/MQTTmbed.h \
+ mqtt-mbed/MQTTClient.h mqtt-mbed/FP/FP.h \
+ mqtt-mbed/MQTTPacket/MQTTPacket.h mqtt-mbed/MQTTPacket/MQTTConnect.h \
+ mqtt-mbed/MQTTPacket/MQTTPublish.h mqtt-mbed/MQTTPacket/MQTTSubscribe.h \
+ mqtt-mbed/MQTTPacket/MQTTUnsubscribe.h mqtt-mbed/MQTTPacket/MQTTFormat.h \
+ mqtt-mbed/MQTTPacket/StackTrace.h mqtt-mbed/MQTTPacket/MQTTPacket.h \
+ mqtt-mbed/MQTTLogging.h
