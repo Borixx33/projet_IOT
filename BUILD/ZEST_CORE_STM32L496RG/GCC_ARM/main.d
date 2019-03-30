@@ -34,7 +34,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/main.o: main.cpp \
  mbed-os/features/netsocket/Socket.h \
  mbed-os/features/netsocket/UDPSocket.h \
  mbed-os/features/netsocket/InternetSocket.h \
- mbed-os/platform/mbed_critical.h \
  mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
  mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \

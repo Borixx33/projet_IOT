@@ -41,7 +41,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/features/cellular/framework/common/CellularTargets.h \
  mbed-os/features/cellular/framework/device/CellularStateMachine.h \
  mbed-os/features/cellular/framework/common/CellularCommon.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
  mbed-os/rtos/Semaphore.h \
  mbed-os/features/cellular/framework/targets/QUECTEL/BC95/QUECTEL_BC95.h \
  mbed-os/features/cellular/framework/AT/AT_CellularDevice.h \

@@ -102,6 +102,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/platform/mbed_error.o: \
  mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_error.h \
  mbed-os/platform/mbed_error_hist.h mbed-os/platform/mbed_interface.h \
  mbed-os/platform/mbed_power_mgmt.h mbed-os/hal/sleep_api.h \
- mbed-os/hal/ticker_api.h mbed-os/platform/mbed_stats.h \
+ mbed-os/hal/ticker_api.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h

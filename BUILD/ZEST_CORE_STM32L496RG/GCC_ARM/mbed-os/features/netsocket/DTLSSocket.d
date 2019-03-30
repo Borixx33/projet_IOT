@@ -50,9 +50,9 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/netsocket/DTLSSocket.o: \
  mbed-os/features/netsocket/NetworkInterface.h \
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/DNS.h mbed-os/rtos/Mutex.h \
- mbed-os/platform/ScopedLock.h mbed-os/platform/mbed_critical.h \
- mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/PlatformMutex.h mbed-os/hal/ticker_api.h \
+ mbed-os/platform/ScopedLock.h mbed-os/features/netsocket/SocketStats.h \
+ mbed-os/platform/SingletonPtr.h mbed-os/platform/PlatformMutex.h \
+ mbed-os/hal/ticker_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/device/cmsis.h \

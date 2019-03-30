@@ -74,7 +74,6 @@
         "TARGET_LIKE_CORTEX_M4", 
         "TARGET_LIKE_MBED", 
         "TARGET_M4", 
-        "TARGET_NAME=ZEST_CORE_STM32L496RG", 
         "TARGET_RELEASE", 
         "TARGET_RTOS_M4_M7", 
         "TARGET_STM", 

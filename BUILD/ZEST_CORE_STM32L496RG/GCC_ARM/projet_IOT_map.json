@@ -2,12 +2,12 @@
     {
         "module": "[fill]", 
         "size": {
-            ".data-delta": 3, 
-            ".text-delta": 42, 
-            ".bss": 79, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 87, 
             ".data": 47, 
-            ".bss-delta": -4, 
-            ".text": 458
+            ".bss-delta": 0, 
+            ".text": 414
         }
     }, 
     {
@@ -25,7 +25,7 @@
         "module": "[lib]/gcc.a", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 160, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -68,12 +68,12 @@
     {
         "module": "main.o", 
         "size": {
-            ".data-delta": 5, 
-            ".text-delta": 158, 
-            ".bss": 288, 
-            ".data": 9, 
-            ".bss-delta": 236, 
-            ".text": 3254
+            ".data-delta": 0, 
+            ".text-delta": 0, 
+            ".bss": 404, 
+            ".data": 5, 
+            ".bss-delta": 0, 
+            ".text": 3711
         }
     }, 
     {
@@ -91,7 +91,7 @@
         "module": "mbed-os/components", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -50, 
+            ".text-delta": 0, 
             ".bss": 458, 
             ".data": 9, 
             ".bss-delta": 0, 
@@ -103,10 +103,10 @@
         "size": {
             ".data-delta": 0, 
             ".text-delta": 0, 
-            ".bss": 188, 
+            ".bss": 228, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 2715
+            ".text": 2575
         }
     }, 
     {
@@ -125,10 +125,10 @@
         "size": {
             ".data-delta": 0, 
             ".text-delta": 0, 
-            ".bss": 41266, 
-            ".data": 551, 
+            ".bss": 41074, 
+            ".data": 547, 
             ".bss-delta": 0, 
-            ".text": 194005
+            ".text": 193821
         }
     }, 
     {
@@ -139,7 +139,7 @@
             ".bss": 66, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 2013
+            ".text": 2111
         }
     }, 
     {
@@ -150,7 +150,7 @@
             ".bss": 140, 
             ".data": 260, 
             ".bss-delta": 0, 
-            ".text": 3594
+            ".text": 3745
         }
     }, 
     {
@@ -158,10 +158,10 @@
         "size": {
             ".data-delta": 0, 
             ".text-delta": 0, 
-            ".bss": 5981, 
+            ".bss": 5977, 
             ".data": 168, 
             ".bss-delta": 0, 
-            ".text": 11803
+            ".text": 11811
         }
     }, 
     {
@@ -172,14 +172,14 @@
             ".bss": 1445, 
             ".data": 4, 
             ".bss-delta": 0, 
-            ".text": 21727
+            ".text": 25253
         }
     }, 
     {
         "module": "mqtt-mbed/MQTTPacket", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": -6, 
+            ".text-delta": 0, 
             ".bss": 4, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -188,10 +188,10 @@
     }, 
     {
         "summary": {
-            "static_ram": 55232, 
-            "total_flash_delta": 312, 
-            "static_ram_delta": 240, 
-            "total_flash": 288263
+            "static_ram": 55192, 
+            "total_flash_delta": 0, 
+            "static_ram_delta": 0, 
+            "total_flash": 292127
         }
     }
 ]

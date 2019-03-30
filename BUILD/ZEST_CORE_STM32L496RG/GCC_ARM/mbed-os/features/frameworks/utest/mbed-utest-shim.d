@@ -1,8 +1,7 @@
 BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/frameworks/utest/mbed-utest-shim.o: \
  mbed-os/features/frameworks/utest/mbed-utest-shim.cpp \
  BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed_config.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/mbed_critical.h \
  mbed-os/features/frameworks/utest/utest/utest.h \
  mbed-os/features/frameworks/utest/utest/utest_types.h \
  mbed-os/features/frameworks/utest/utest/utest_shim.h \
@@ -101,6 +100,7 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/frameworks/utest/mbed-utest
  mbed-os/targets/TARGET_STM/PinNamesTypes.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/common_objects.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
+ mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_ll_usart.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \

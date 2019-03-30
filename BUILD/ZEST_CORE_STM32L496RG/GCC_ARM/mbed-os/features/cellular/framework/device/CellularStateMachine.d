@@ -22,8 +22,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/device/C
  mbed-os/features/cellular/framework/API/CellularDevice.h \
  mbed-os/features/cellular/framework/common/CellularTargets.h \
  mbed-os/features/cellular/framework/device/CellularStateMachine.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
- mbed-os/platform/mbed_retarget.h \
  mbed-os/features/cellular/framework/API/CellularPower.h \
  mbed-os/features/cellular/framework/API/CellularSIM.h \
  mbed-os/features/cellular/framework/common/CellularLog.h \
@@ -31,6 +29,7 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/device/C
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/rtos/Thread.h mbed-os/rtos/Semaphore.h \
  mbed-os/drivers/UARTSerial.h mbed-os/platform/platform.h \
+ mbed-os/platform/mbed_retarget.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/device/cmsis.h \

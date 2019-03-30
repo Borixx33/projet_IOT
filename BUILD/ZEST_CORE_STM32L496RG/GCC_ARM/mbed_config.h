@@ -79,7 +79,7 @@
 #define MBED_CONF_LWIP_IPV4_ENABLED                                           1                                                                                                // set by library:lwip
 #define MBED_CONF_LWIP_IPV6_ENABLED                                           0                                                                                                // set by library:lwip
 #define MBED_CONF_LWIP_IP_VER_PREF                                            4                                                                                                // set by library:lwip
-#define MBED_CONF_LWIP_MEM_SIZE                                               25600                                                                                            // set by library:lwip[STM]
+#define MBED_CONF_LWIP_MEM_SIZE                                               2310                                                                                             // set by library:lwip[STM]
 #define MBED_CONF_LWIP_PPP_THREAD_STACKSIZE                                   768                                                                                              // set by library:lwip
 #define MBED_CONF_LWIP_SOCKET_MAX                                             4                                                                                                // set by library:lwip
 #define MBED_CONF_LWIP_TCPIP_THREAD_STACKSIZE                                 1200                                                                                             // set by library:lwip
@@ -147,6 +147,7 @@
 #define MBED_CONF_PLATFORM_CTHUNK_COUNT_MAX                                   8                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE                           9600                                                                                             // set by library:platform
 #define MBED_CONF_PLATFORM_ERROR_ALL_THREADS_INFO                             0                                                                                                // set by library:platform
+#define MBED_CONF_PLATFORM_ERROR_DECODE_HTTP_URL_STR                          "\nFor more info, visit: https://armmbed.github.io/mbedos-error/?error=0x%08X"                   // set by library:platform
 #define MBED_CONF_PLATFORM_ERROR_FILENAME_CAPTURE_ENABLED                     0                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_ERROR_HIST_ENABLED                                 0                                                                                                // set by library:platform
 #define MBED_CONF_PLATFORM_ERROR_HIST_SIZE                                    4                                                                                                // set by library:platform

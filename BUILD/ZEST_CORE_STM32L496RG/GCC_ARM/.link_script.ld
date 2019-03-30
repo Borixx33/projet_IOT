@@ -1,4 +1,3 @@
-STACK_SIZE = 1024;
 MEMORY
 {
   FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1024k
@@ -87,7 +86,7 @@ SECTIONS
     } > SRAM1
     __StackTop = ORIGIN(SRAM1) + LENGTH(SRAM1);
     _estack = __StackTop;
-    __StackLimit = __StackTop - STACK_SIZE;
+    __StackLimit = __StackTop - SIZEOF(.stack_dummy);
     PROVIDE(__stack = __StackTop);
     ASSERT(__StackLimit >= __HeapLimit, "region RAM overflowed with stack")
 }

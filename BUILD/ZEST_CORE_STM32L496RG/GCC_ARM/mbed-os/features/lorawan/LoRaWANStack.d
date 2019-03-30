@@ -11,7 +11,7 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/lorawan/LoRaWANStack.o: \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/features/lorawan/LoRaWANStack.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/ScopedLock.h \
+ mbed-os/platform/ScopedLock.h \
  mbed-os/features/lorawan/lorastack/mac/LoRaMac.h \
  mbed-os/features/lorawan/lorastack/phy/LoRaPHY.h \
  mbed-os/features/lorawan/system/LoRaWANTimer.h \

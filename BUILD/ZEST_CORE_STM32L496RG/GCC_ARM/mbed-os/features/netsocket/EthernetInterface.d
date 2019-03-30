@@ -27,9 +27,8 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/netsocket/EthernetInterface
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/platform/ScopedLock.h \
- mbed-os/rtos/EventFlags.h mbed-os/platform/mbed_critical.h \
- mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/PlatformMutex.h \
+ mbed-os/rtos/EventFlags.h mbed-os/features/netsocket/SocketStats.h \
+ mbed-os/platform/SingletonPtr.h mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/objects.h \
@@ -163,7 +162,5 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/netsocket/EthernetInterface
  mbed-os/features/netsocket/EMACInterface.h \
  mbed-os/features/netsocket/EMAC.h \
  mbed-os/features/netsocket/EMACMemoryManager.h \
- mbed-os/features/netsocket/NetStackMemoryManager.h \
  mbed-os/features/netsocket/OnboardNetworkStack.h \
- mbed-os/features/netsocket/NetworkStack.h \
- mbed-os/features/netsocket/L3IP.h
+ mbed-os/features/netsocket/NetworkStack.h

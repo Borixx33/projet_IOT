@@ -21,8 +21,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/device/C
  mbed-os/platform/PlatformMutex.h mbed-os/rtos/Mutex.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h mbed-os/platform/ScopedLock.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
- mbed-os/platform/mbed_retarget.h \
  mbed-os/features/cellular/framework/API/CellularContext.h \
  mbed-os/features/netsocket/CellularBase.h \
  mbed-os/features/netsocket/NetworkInterface.h \
@@ -37,6 +35,7 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/device/C
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/drivers/UARTSerial.h mbed-os/platform/platform.h \
+ mbed-os/platform/mbed_retarget.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/objects.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L496xG/device/cmsis.h \

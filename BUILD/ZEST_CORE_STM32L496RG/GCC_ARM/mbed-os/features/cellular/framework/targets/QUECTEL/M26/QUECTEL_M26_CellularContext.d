@@ -31,11 +31,9 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/platform/PlatformMutex.h mbed-os/rtos/Mutex.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h mbed-os/platform/ScopedLock.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
- mbed-os/platform/mbed_retarget.h \
  mbed-os/features/cellular/framework/AT/AT_CellularBase.h \
  mbed-os/features/cellular/framework/AT/ATHandler.h \
- mbed-os/rtos/Semaphore.h \
+ mbed-os/platform/mbed_retarget.h mbed-os/rtos/Semaphore.h \
  mbed-os/features/cellular/framework/targets/QUECTEL/M26/QUECTEL_M26_CellularStack.h \
  mbed-os/features/cellular/framework/AT/AT_CellularStack.h \
  mbed-os/features/netsocket/NetworkStack.h

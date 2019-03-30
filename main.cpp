@@ -100,8 +100,6 @@ int main() {
         return 0;
     }
 
-
-
     // Connect 6LowPAN interface
     result = net->connect();
     if (result != 0) {
@@ -132,9 +130,16 @@ int main() {
     if ((rc = client.connect(data)) != 0)
         printf("rc from MQTT connect is %d\r\n", rc);
 
-    sendData(client, "floborie/feeds/Temperature", temperature_air);
-    sendData(client, "floborie/feeds/Humidité", humidite_eau);
+    while (true) {
+   		float humidite_eau = getHumidity();
+   		float temperature_air = getTemperature();
 
+   		sendData(client, "floborie/feeds/Temperature", temperature_air);
+   	    sendData(client, "floborie/feeds/Humidité", humidite_eau);
+
+   		client.yield(100);
+   		wait(5);
+   }
 
     // Disconnect client and socket
     client.disconnect();

@@ -34,7 +34,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/cellular/framework/targets/
  mbed-os/features/cellular/framework/API/CellularNetwork.h \
  mbed-os/features/cellular/framework/common/CellularList.h \
  mbed-os/features/cellular/framework/common/CellularCommon.h \
- mbed-os/features/cellular/framework/AT/ATHandler.h \
  mbed-os/features/cellular/framework/common/CellularLog.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h

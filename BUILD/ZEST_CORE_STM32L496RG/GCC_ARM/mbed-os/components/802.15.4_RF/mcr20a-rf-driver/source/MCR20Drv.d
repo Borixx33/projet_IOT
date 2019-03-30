@@ -4,5 +4,4 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/components/802.15.4_RF/mcr20a-rf-dri
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/MCR20Drv.h \
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/MCR20Reg.h \
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/XcvrSpi.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h
+ mbed-os/platform/mbed_critical.h

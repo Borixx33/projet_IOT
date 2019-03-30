@@ -178,7 +178,6 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/lwipstack/ppp_lwip.o: \
  mbed-os/features/netsocket/Socket.h \
  mbed-os/features/netsocket/UDPSocket.h \
  mbed-os/features/netsocket/InternetSocket.h mbed-os/rtos/EventFlags.h \
- mbed-os/platform/mbed_critical.h \
  mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
  mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \
@@ -215,9 +214,7 @@ BUILD/ZEST_CORE_STM32L496RG/GCC_ARM/mbed-os/features/lwipstack/ppp_lwip.o: \
  mbed-os/features/netsocket/DTLSSocket.h \
  mbed-os/features/netsocket/DTLSSocketWrapper.h \
  mbed-os/features/netsocket/UDPSocket.h \
- mbed-os/features/netsocket/NetStackMemoryManager.h \
- mbed-os/features/netsocket/L3IP.h \
  mbed-os/features/netsocket/OnboardNetworkStack.h \
- mbed-os/features/netsocket/EMAC.h mbed-os/features/netsocket/L3IP.h \
+ mbed-os/features/netsocket/EMAC.h \
  mbed-os/features/lwipstack/LWIPMemoryManager.h \
  mbed-os/features/netsocket/EMACMemoryManager.h
