@@ -16,3 +16,6 @@ Vous pouvez accéder à notre dashboard ici :
 
 * https://io.adafruit.com/floborie/dashboards/projet-iot
 
+---
+
+Projet réalisé par BORIE Florian, ANTON Guillaume et LYS Florian.
