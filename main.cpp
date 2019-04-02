@@ -6,6 +6,9 @@
 
 // Network interface
 NetworkInterface *net;
+static AnalogIn Capteur_humidite(ADC_IN1);
+static float temperature_air = 0.000244 * 3.3;
+static float humidite_eau = 0.748962 * 3.3;
 
 int valeur_arrive = 0;
 
@@ -15,19 +18,23 @@ void messageArrived(MQTT::MessageData& md)
     MQTT::Message &message = md.message;
     printf("Message arrived: qos %d, retained %d, dup %d, packetid %d\r\n", message.qos, message.retained, message.dup, message.id);
     printf("Payload %.*s\r\n", message.payloadlen, (char*)message.payload);
+
+    if(strcmp((const char *)md.message.payload, "ON") >= 0){
+    	led1 = true;
+    }
+    else if(strcmp((const char *)md.message.payload, "OFF") >= 0){
+    	led1 = false;
+    }
     ++valeur_arrive;
 }
+
 namespace{
 #define PERIOD_MS 500
 }
-static DigitalOut led1(LED1);
-
-static AnalogIn Capteur_humidite(ADC_IN1);
-static float temperature_air = 0.000244 * 3.3;
-static float humidite_eau = 0.748962 * 3.3;
 
 I2C i2c(I2C1_SDA, I2C1_SCL);
 uint8_t lm75_adress = 0x48 << 1;
+static DigitalOut led1(LED1);
 
 
 void sendData(MQTT::Client<MQTTNetwork, Countdown>& client, char* topic, float humidity)
@@ -129,6 +136,7 @@ int main() {
     data.password.cstring = "b2a66f84bb5e440f8341e374d908e294";
     if ((rc = client.connect(data)) != 0)
         printf("rc from MQTT connect is %d\r\n", rc);
+
 
     while (true) {
    		float humidite_eau = getHumidity();
